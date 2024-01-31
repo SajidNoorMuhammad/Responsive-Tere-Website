@@ -22,7 +22,7 @@
         padding: 10px;
     }
 
-    .slide >img {
+    .slide>img {
         width: 900px;
         height: 400px;
         object-fit: contain;
@@ -42,7 +42,7 @@
 
 
 .row>.col>.grey {
-    color:#9E9DA2;
+    color: #9E9DA2;
 }
 
 .slide>img {
@@ -82,7 +82,7 @@
     .slide-content>h1 {
         font-size: 40px;
         line-height: 50px;
-}
+    }
 }
 
 
@@ -106,7 +106,7 @@
 
 
 
-.theme-mid{
+.theme-mid {
     width: 100%;
     margin-top: 40px;
     background-color: #75BF7A;
@@ -152,18 +152,142 @@
 
 
 @media only screen and (max-width: 700px) {
-   .theme-mid {
-    text-align: center;
-    background-color: 100%;
-    height: 280px;
-    padding: 60px 0px;
-    border-radius: 5px;
-   }
+    .theme-mid {
+        text-align: center;
+        background-color: 100%;
+        height: 280px;
+        padding: 60px 0px;
+        border-radius: 5px;
+    }
 }
 
 @media only screen and (max-width: 700px) {
 
     .theme-mid>.theme-input {
-       line-height: 100px;
-    } 
+        line-height: 100px;
+    }
+}
+
+
+
+.theme-head {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.theme-head>span> h1>.heading-color {
+    color: #75BF7A;
+}
+
+.theme-head>span> h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.theme-head>.p {
+    color: #9E9DA2;
+    font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .theme-head>span> h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .theme-head>.p {
+        color: #9E9DA2;
+        font-size: 15px;
+    }
+}
+
+
+.once {
+    margin-top: 200px;
+}
+
+.left-side>h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.col>.number-one>.paragraph {
+    color: #9E9DA2;
+    font-size: 19px;
+}
+
+.col>.number-one {
+    text-align: right;
+}
+
+
+
+
+.col>.number-two>.paragraph {
+    color: #9E9DA2;
+    font-size: 19px;
+}
+
+.col>.number-two {
+    text-align: right;
+}
+
+.number-two {
+    margin-top: 60px;
+}
+
+
+.col>.number-three>.paragraph {
+    color: #9E9DA2;
+    font-size: 19px;
+}
+
+.right-side>h3 {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.col>.number-four>.paragraph {
+    color: #9E9DA2;
+    font-size: 19px;
+}
+
+.number-four {
+    margin-top: 60px;
+}
+
+
+.col>.circle>img {
+    margin-top: 60px;
+}
+
+.circles {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .number-three {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .number-four {
+        text-align: center;
+    }
+
+    .number-one {
+        text-align: center !important;
+    }
+
+    .number-two {
+        text-align: center !important;
+        padding-bottom: 30px;
+    }
+
+    .circles>img {
+        position: ;
+    }
 }
