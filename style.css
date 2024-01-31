@@ -23,7 +23,7 @@
     }
 
     .slide >img {
-        width: 100%;
+        width: 900px;
         height: 400px;
         object-fit: contain;
     }
@@ -94,5 +94,10 @@
 
     .slide>img {
         text-align: center;
+    }
+
+
+    .theme-slide {
+        flex-direction: column-reverse;
     }
 }
