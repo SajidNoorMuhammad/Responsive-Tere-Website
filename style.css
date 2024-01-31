@@ -1,0 +1,13 @@
+.theme-btn {
+    background-color: #75BF7A;
+    border: none;
+    color: white;
+    border-radius: 5.95px;
+    padding: 8px 25px;
+    font-weight: bold;
+}
+
+.navbar {
+    font-weight: 500;
+    color: black;
+}
