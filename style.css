@@ -11,3 +11,51 @@
     font-weight: 500;
     color: black;
 }
+
+
+@media only screen and (max-width: 990px) {
+    .navbar {
+        height: auto;
+    }
+
+    .navbar-nav {
+        padding: 10px;
+    }
+}
+
+
+.row>.col>.grey {
+    color:#9E9DA2;
+}
+
+.slide>img {
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.slide-content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.store-content>img {
+    margin-top: 20px;
+}
+
+.slide-content>h1 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 65.91px;
+    color: black;
+}
+
+.slide-content>.grey {
+    color: #9E9DA2;
+    font-weight: 500;
+    font-size: 18px;
+}
