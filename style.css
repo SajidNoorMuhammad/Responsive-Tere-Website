@@ -21,7 +21,24 @@
     .navbar-nav {
         padding: 10px;
     }
+
+    .slide >img {
+        width: 100%;
+        height: 400px;
+        object-fit: contain;
+    }
+
+    /* .slide-content>h1 {
+        font-size: 50px;
+        color: orange;
+    } */
 }
+
+
+
+
+
+
 
 
 .row>.col>.grey {
@@ -58,4 +75,24 @@
     color: #9E9DA2;
     font-weight: 500;
     font-size: 18px;
+}
+
+
+@media only screen and (max-width: 990px) {
+    .slide-content>h1 {
+        font-size: 40px;
+        line-height: 50px;
+}
+}
+
+
+@media only screen and (max-width: 600px) {
+    .slide-content {
+        text-align: center;
+        padding: 40px 10px;
+    }
+
+    .slide>img {
+        text-align: center;
+    }
 }
