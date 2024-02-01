@@ -46,8 +46,8 @@
 }
 
 .slide>img {
-    padding: 20px;
-    width: 70%;
+    /* padding: 20px; */
+    width: 100%;
     display: flex;
     justify-content: center;
 }
@@ -275,7 +275,7 @@
     }
 
     .number-four {
-        text-align: center;
+        text-align: center !important;
     }
 
     .number-one {
@@ -286,8 +286,129 @@
         text-align: center !important;
         padding-bottom: 30px;
     }
+}
 
-    .circles>img {
-        position: ;
+.theme-circle {
+    display: none;
+}
+
+/* @media only screen and (max-width: 700px) {
+    .theme-circle {
+        display: block;
+        text-align: center;
+    }
+
+    .circles {
+        display: none;
+    }
+} */
+
+.middle {
+    margin-top: 80px;
+}
+
+
+
+.container>div>h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 80px;
+    font-weight: bold;
+}
+
+.container>div>h2>.green {
+    color: #75BF7A;
+}
+
+.number-p>.cold {
+    font-size: 39.94px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.copy-1 {
+    color: #9E9DA2;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.middle>.hello {
+    width: 30%;
+    text-align: justify;
+}
+
+.hello>.number-p>.ended {
+    color: #75BF7A;
+    font-size: 50px;
+}
+
+.hello>.mobile-res {
+    display: none;
+}
+
+
+@media only screen and (max-width:700px) {
+    .middle {
+        text-align: center !important;
+    }
+
+    .copy-1 {
+        text-align: center;
+    }
+
+    .hello>.mobile-res {
+        display: block;
+    }
+
+    .soon>img{
+        display: none;
+    }
+}
+
+.middle {
+    background-color: white;
+}
+
+/* .hellow>.number-q>span{
+    color: #75BF7A;
+    font-size: 50px;
+} */
+
+.number-q>.ending {
+    color: #75BF7A;
+    font-size: 50px;
+}
+
+.number-q>.cold {
+    font-size: 39.94px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.copy-2 {
+    color: #9E9DA2;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.hellow {
+    margin-top: 90px;
+}
+
+.earning-one {
+    display: none;
+}
+
+@media only screen and (max-width:700px) {
+    .hellow {
+        text-align: center;
+    }
+
+    .earning-one {
+        display: block;
+    }
+
+    .earning-three {
+        display: none;
     }
 }
