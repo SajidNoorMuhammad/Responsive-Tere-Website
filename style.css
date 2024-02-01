@@ -412,3 +412,45 @@
         display: none;
     }
 }
+
+
+.number-r>.ending {
+    color: #75BF7A;
+    font-size: 50px;
+}
+
+.number-r>.cold {
+    font-size: 39.94px;
+    font-weight: 600;
+    margin-left: 10px;
+}
+
+.copy-3 {
+    color: #9E9DA2;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.hello-three {
+    margin-top: 90px;
+    margin-left: 20px;
+}
+
+.over {
+    display: none;
+}
+
+@media only screen and (max-width:700px) {
+    .hello-three {
+        text-align: center !important;
+    }
+
+    .over {
+        display: block;
+    }
+
+    .hover>img {
+        display: none;
+    }
+}
+
