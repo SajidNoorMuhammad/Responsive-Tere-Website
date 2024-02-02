@@ -27,31 +27,17 @@
         height: 400px;
         object-fit: contain;
     }
-
-    /* .slide-content>h1 {
-        font-size: 50px;
-        color: orange;
-    } */
 }
-
-
-
-
-
-
-
 
 .row>.col>.grey {
     color: #9E9DA2;
 }
 
 .slide>img {
-    /* padding: 20px; */
     width: 100%;
     display: flex;
     justify-content: center;
 }
-
 
 .slide-content {
     height: 100%;
@@ -175,11 +161,11 @@
     text-align: center;
 }
 
-.theme-head>span> h1>.heading-color {
+.theme-head>span>h1>.heading-color {
     color: #75BF7A;
 }
 
-.theme-head>span> h1 {
+.theme-head>span>h1 {
     font-size: 50px;
     font-weight: bold;
 }
@@ -192,7 +178,7 @@
 
 
 @media only screen and (max-width: 700px) {
-    .theme-head>span> h1 {
+    .theme-head>span>h1 {
         font-size: 40px;
         font-weight: bold;
     }
@@ -292,22 +278,9 @@
     display: none;
 }
 
-/* @media only screen and (max-width: 700px) {
-    .theme-circle {
-        display: block;
-        text-align: center;
-    }
-
-    .circles {
-        display: none;
-    }
-} */
-
 .middle {
     margin-top: 80px;
 }
-
-
 
 .container>div>h2 {
     font-size: 40px;
@@ -360,7 +333,7 @@
         display: block;
     }
 
-    .soon>img{
+    .soon>img {
         display: none;
     }
 }
@@ -368,11 +341,6 @@
 .middle {
     background-color: white;
 }
-
-/* .hellow>.number-q>span{
-    color: #75BF7A;
-    font-size: 50px;
-} */
 
 .number-q>.ending {
     color: #75BF7A;
@@ -454,3 +422,94 @@
     }
 }
 
+.justing {
+    margin-top: 80px;
+}
+
+.theme>img {
+    margin-top: 70px;
+}
+
+.lasting {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.lasted {
+    color: #9E9DA2;
+    font-size: 14px;
+}
+
+.end-last {
+    text-align: center;
+    color: #75BF7A;
+    margin-top: 60px;
+    font-size: 17px;
+}
+
+.sentence {
+    line-height: 20px;
+}
+
+.sentence-2 {
+    line-height: 20px;
+}
+
+.image-one>div>img {
+    margin-top: 50px;
+}
+
+.image-two>div>img {
+    margin-top: 50px;
+}
+
+.image-three {
+    display: none;
+}
+
+.image-six {
+    display: none;
+}
+
+@media only screen and (max-width:700px) {
+    .sentence {
+        display: none;
+    }
+
+    .justing {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .image-one {
+        display: none;
+    }
+
+    .image-two {
+        display: none;
+    }
+
+    .image-three {
+        display: block;
+    }
+
+    .image-six {
+        display: block;
+    }
+
+    .image-three>div>img {
+        margin-top: 60px;
+    }
+
+    .image-six>div>img {
+        margin-top: 30px;
+    }
+
+    .sentence-2 {
+        margin-top: 40px !important;
+    }
+
+    .end-last {
+        color: #9E9DA2;
+    }
+}
